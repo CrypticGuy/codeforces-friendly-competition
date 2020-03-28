@@ -4,10 +4,8 @@ export default class createUserComponent extends Component {
     
     constructor(props) {
         super(props)
-
         this.onChangeUsername = this.onChangeUsername.bind(this)
         this.onChangeDate = this.onChangeDate.bind(this)
-
         this.state = {
             username: '',
             users: [], 
